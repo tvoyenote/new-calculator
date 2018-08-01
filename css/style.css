@@ -1,0 +1,74 @@
+body {
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url(../img/photo.jpg);
+    background-size: cover;
+}
+.calculator {
+    padding: 20px;
+    box-shadow: 5px 15px 50px 5px rgba(164, 199, 184, 0.185);
+    border-radius: 20px;
+    background-color: rgba(211, 211, 211, 0.507);
+  }
+.input {
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    height: 60px;
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 36px;
+}
+.input:hover {
+    border: 1px solid  rgb(164, 199, 184);;
+}
+.operators div {
+    display: inline-block;
+    border: 1px solid  rgb(164, 199, 184);;
+    border-radius: 20px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: lightblue;
+}
+.operators div:hover {
+    background-color:  rgb(164, 199, 184);;
+}
+.blocknumbers {
+    display: inline-block;
+}
+.numbers div {
+    display: inline-block;
+    border: 1px solid  rgb(164, 199, 184);;
+    border-radius: 20px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    background-color: #f9f9f9;
+  }
+.numbers div:hover {
+    background-color:  rgb(164, 199, 184);;
+}
+div.final {
+    display: inline-block;
+    border: 1px solid  rgb(164, 199, 184);
+    border-radius: 20px;
+    width: 80px;
+    text-align: center;
+    padding: 100px 10px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+    cursor: pointer;
+    color: #FFF;
+    background-color:  rgb(164, 199, 184);
+}
+div.final:hover {
+    background-color: lightblue;
+}
+  
+  
